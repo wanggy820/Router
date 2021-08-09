@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 public class _TJRouter {
 	public static void register(String className, String url) {
 		try {
-			Class TJRouter = Class.forName("com.tojoy.tj_flutter_router_plugin.TJRouter");
+			Class<?> TJRouter = Class.forName("com.tojoy.tj_flutter_router_plugin.TJRouter");
 			try {
 				Method method = TJRouter.getDeclaredMethod("register", String.class, String.class);
 				try {
