@@ -3,7 +3,7 @@ package com.tojoy.router;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class _TJRouter {
+public class TojoyRouter {
 	public static void register(String className, String url) {
 		try {
 			Class<?> TJRouter = Class.forName("com.tojoy.tj_flutter_router_plugin.TJRouter");
