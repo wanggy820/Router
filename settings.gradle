@@ -10,4 +10,4 @@ gradleEnterprise {
     }
 }
 
-rootProject.name = 'checkstyle-checkers'
+rootProject.name = 'tj_router'
