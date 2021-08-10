@@ -1,42 +1,4 @@
-//plugins {
-//    id "com.github.spotbugs" version "3.0.0"
-//}
-
-//repositories {
-//    mavenLocal()
-//    mavenCentral()
-//    maven {
-//        url 'https://maven.pkg.github.com/AlphaHinex/checkstyle-checkers'
-//        credentials(PasswordCredentials) {
-//            username = project.findProperty("gpr.user") ?: System.getenv("GH_OWNER")
-//            password = project.findProperty("gpr.reader") ?: System.getenv("GH_PKG_READER")
-//        }
-//    }
-//}
-
 apply plugin: 'java'
-
-//apply plugin: 'maven-publish'
-
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-
-
-//publishing {
-//    repositories {
-//        maven {
-//            name = 'TJRouter'
-//            url = uri('https://github.com/wanggy820/tj_touter')
-//            credentials {
-//                username = project.findProperty("gpr.user") ?: System.getenv("GH_OWNER")
-//                password = project.findProperty("gpr.key") ?: System.getenv("GH_PKG_ADMIN")
-//            }
-//        }
-//    }
-//    publications {
-//        gpr(MavenPublication) {
-//            from(components.java)
-//        }
-//    }
-//}
